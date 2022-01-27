@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:title="Home"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_planeta"
+        />
+
+    <item
+        android:title=""
+        app:showAsAction="always"
+        />
+    <item
+        android:title=""
+        app:showAsAction="always"/>
+    <item
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/notificationFragment"
+        android:title="Notification"
+        android:enabled="true"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_notificaton"
+        />
+    <item
+        android:title=""
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/accountFragment"
+        android:title="Account"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:contentDescription="@string/app_name"
+        android:icon="@drawable/ic_account"
+        />
+    <item
+        android:id="@+id/favouriteFragment"
+        android:title="Favourite"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:contentDescription="@string/app_name"
+        android:icon="@drawable/ic_heart"
+        />
+
+</menu>
